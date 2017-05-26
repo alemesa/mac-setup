@@ -1,0 +1,372 @@
+[
+  {
+    "metadata": {
+      "id": "835af090-485a-48fc-bc95-4dd5b3e79734",
+      "publisherId": "42c0760b-fc8c-46bc-975e-4de389991ae8",
+      "publisherDisplayName": "steve8708"
+    },
+    "name": "Align",
+    "publisher": "steve8708",
+    "version": "0.2.0"
+  },
+  {
+    "metadata": {
+      "id": "e1efb0c8-2c62-4d86-bb6a-c88f198ddfcc",
+      "publisherId": "7f0e50f4-6aec-43e8-be03-b72ee2507484",
+      "publisherDisplayName": "Dustin Sanders"
+    },
+    "name": "an-old-hope-theme-vscode",
+    "publisher": "dustinsanders",
+    "version": "1.1.0"
+  },
+  {
+    "metadata": {
+      "id": "d3836729-9cc1-42c1-b2af-d50071f57d29",
+      "publisherId": "38bbe3f0-5204-4170-845e-c2f966d979b8",
+      "publisherDisplayName": "Jun Han"
+    },
+    "name": "auto-close-tag",
+    "publisher": "formulahendry",
+    "version": "0.3.8"
+  },
+  {
+    "metadata": {
+      "id": "6e440e71-8ed9-4f25-bb78-4b13096b8a03",
+      "publisherId": "38bbe3f0-5204-4170-845e-c2f966d979b8",
+      "publisherDisplayName": "Jun Han"
+    },
+    "name": "auto-rename-tag",
+    "publisher": "formulahendry",
+    "version": "0.0.11"
+  },
+  {
+    "metadata": {
+      "id": "32339d9d-6481-4dd4-a7a3-4a6009c12cf4",
+      "publisherId": "3ed95cda-db4a-4ae7-bac1-909b9bacf088",
+      "publisherDisplayName": "JerryHong"
+    },
+    "name": "autofilename",
+    "publisher": "JerryHong",
+    "version": "0.1.3"
+  },
+  {
+    "metadata": {
+      "id": "697255a9-3f36-44c8-b084-d3b91edfb23a",
+      "publisherId": "901b401e-7657-4a33-8c9a-0854c569607e",
+      "publisherDisplayName": "HookyQR"
+    },
+    "name": "beautify",
+    "publisher": "HookyQR",
+    "version": "0.7.3"
+  },
+  {
+    "metadata": {
+      "id": "b689fcc8-d494-4dbf-a228-2c694a578afc",
+      "publisherId": "3fbdef65-bdf5-4723-aeaf-9e12a50546ef",
+      "publisherDisplayName": "Alessandro Fragnani"
+    },
+    "name": "Bookmarks",
+    "publisher": "alefragnani",
+    "version": "0.10.2"
+  },
+  {
+    "metadata": {
+      "id": "fade5c3d-baa8-4693-9672-8618c34bc79e",
+      "publisherId": "1c943eba-c73d-4022-972f-8043416b8fd1",
+      "publisherDisplayName": "William Whitehead"
+    },
+    "name": "bootstrap-3-snippets",
+    "publisher": "wcwhitehead",
+    "version": "0.0.9"
+  },
+  {
+    "metadata": {
+      "id": "e337c67b-55c2-4fef-8949-eb260e7fb7fd",
+      "publisherId": "ac3a3342-db76-40ef-9277-4657632d3bfe",
+      "publisherDisplayName": "Shan Khan"
+    },
+    "name": "code-settings-sync",
+    "publisher": "Shan",
+    "version": "2.4.2"
+  },
+  {
+    "metadata": {
+      "id": "121396ad-85a1-45ec-9fd1-d95028a847f5",
+      "publisherId": "e9a76d04-24d4-44eb-a202-964f71acf59e",
+      "publisherDisplayName": "Sergii Naumov"
+    },
+    "name": "color-highlight",
+    "publisher": "naumovs",
+    "version": "1.3.0"
+  },
+  {
+    "metadata": {
+      "id": "65c48706-0307-4a62-b6f5-e52e69f9a7ec",
+      "publisherId": "edf8e3bf-6628-4351-8730-aef2f07d4805",
+      "publisherDisplayName": "Łukasz Wroński"
+    },
+    "name": "ftp-sync",
+    "publisher": "lukasz-wronski",
+    "version": "0.3.2"
+  },
+  {
+    "metadata": {
+      "id": "5960f38e-0bbe-4644-8f9c-9c8824e82511",
+      "publisherId": "1ba8bd00-2ad1-4be0-a007-5b4b954c1ee7",
+      "publisherDisplayName": "Don Jayamanne"
+    },
+    "name": "githistory",
+    "publisher": "donjayamanne",
+    "version": "0.1.5"
+  },
+  {
+    "metadata": {
+      "id": "7b71fc1b-190d-4f7d-95d1-93e422649b0a",
+      "publisherId": "20bf23ac-66a2-4404-9047-4b8215047b8b",
+      "publisherDisplayName": "Zignd"
+    },
+    "name": "html-css-class-completion",
+    "publisher": "Zignd",
+    "version": "1.0.3"
+  },
+  {
+    "metadata": {
+      "id": "be992f3f-9f22-4b66-a1d2-ecad04c28a28",
+      "publisherId": "7fe357ee-5480-4a7d-a4e9-009d9438c2a3",
+      "publisherDisplayName": "Mohamed Abusaid"
+    },
+    "name": "html-snippets",
+    "publisher": "abusaidm",
+    "version": "0.0.18"
+  },
+  {
+    "metadata": {
+      "id": "a2cec723-5349-460d-9de9-0fd1f8d3456f",
+      "publisherId": "8961c3fe-3ec6-429d-886a-50b5af362a88",
+      "publisherDisplayName": "charalampos karypidis"
+    },
+    "name": "JavaScriptSnippets",
+    "publisher": "xabikos",
+    "version": "1.2.0"
+  },
+  {
+    "metadata": {
+      "id": "82dfe17d-bb64-404e-bcc5-f9803f7ab5d5",
+      "publisherId": "29859a75-d81b-4f0e-8578-2c80ecee6f99",
+      "publisherDisplayName": "Dirk Baeumer"
+    },
+    "name": "jshint",
+    "publisher": "dbaeumer",
+    "version": "0.10.15"
+  },
+  {
+    "metadata": {
+      "id": "5db78037-f674-459f-a236-db622c427c5b",
+      "publisherId": "f9e5bc2f-fea1-4075-917f-d83e01e69f56",
+      "publisherDisplayName": "Philipp Kief"
+    },
+    "name": "material-icon-theme",
+    "publisher": "PKief",
+    "version": "1.2.0"
+  },
+  {
+    "metadata": {
+      "id": "26a529c9-2654-4b95-a63f-02f6a52429e6",
+      "publisherId": "8ae75bda-ec22-4a17-9340-abf1a20beca9",
+      "publisherDisplayName": "zhuangtongfa"
+    },
+    "name": "Material-theme",
+    "publisher": "zhuangtongfa",
+    "version": "1.0.3"
+  },
+  {
+    "metadata": {
+      "id": "4f63037e-3a44-436f-a483-4c65a77f15f6",
+      "publisherId": "9397af6d-25d3-433c-8d33-40031231ba67",
+      "publisherDisplayName": "FallenMax"
+    },
+    "name": "mithril-emmet",
+    "publisher": "FallenMax",
+    "version": "0.5.1"
+  },
+  {
+    "metadata": {
+      "id": "a41c1549-4053-44d4-bf30-60fc809b4a86",
+      "publisherId": "a892fb38-060b-475f-9e73-2e06a8a17a68",
+      "publisherDisplayName": "Christian Kohler"
+    },
+    "name": "path-intellisense",
+    "publisher": "christian-kohler",
+    "version": "1.2.0"
+  },
+  {
+    "metadata": {
+      "id": "67e66172-30c7-4478-8f5d-6eac4ae755dc",
+      "publisherId": "114b20ca-e58f-4673-9024-1fe88a3e941a",
+      "publisherDisplayName": "Mohsen Azimi"
+    },
+    "name": "prettify-json",
+    "publisher": "mohsen1",
+    "version": "0.0.3"
+  },
+  {
+    "metadata": {
+      "id": "e52bce95-a629-455f-8626-e7301b9e372a",
+      "publisherId": "d130428c-b098-4251-9451-371e680d33b2",
+      "publisherDisplayName": "Robin Bentley"
+    },
+    "name": "sass-indented",
+    "publisher": "robinbentley",
+    "version": "1.3.0"
+  },
+  {
+    "metadata": {
+      "id": "85e57fc6-8e21-4402-8e66-af4155fbb5d2",
+      "publisherId": "fc5e9493-6ca3-452b-9e0a-8a9be2be7798",
+      "publisherDisplayName": "qinjia"
+    },
+    "name": "seti-icons",
+    "publisher": "qinjia",
+    "version": "0.1.3"
+  },
+  {
+    "metadata": {
+      "id": "b5eaebe8-c8c7-495a-80c5-3ba4a7a91c35",
+      "publisherId": "51a8b293-5242-4daa-ab76-10bc6b89cf4c",
+      "publisherDisplayName": "Andreas Scherer"
+    },
+    "name": "theme-atom-one-dark",
+    "publisher": "andischerer",
+    "version": "0.0.1"
+  },
+  {
+    "metadata": {
+      "id": "60133d1b-5b7a-490b-b178-f12ea9adbfd7",
+      "publisherId": "a5c25faf-bf60-4941-81b9-9a852b96c5fb",
+      "publisherDisplayName": "gerane"
+    },
+    "name": "Theme-Brogrammer",
+    "publisher": "gerane",
+    "version": "0.0.3"
+  },
+  {
+    "metadata": {
+      "id": "fb374ce1-5343-46c8-a425-900fdad15523",
+      "publisherId": "ef56c328-1595-4d1e-9e0b-43d926331358",
+      "publisherDisplayName": "Wes Bos"
+    },
+    "name": "theme-cobalt2",
+    "publisher": "wesbos",
+    "version": "2.0.10"
+  },
+  {
+    "metadata": {
+      "id": "491c2499-73f0-40a0-b1d4-de8d8cdaeedb",
+      "publisherId": "c1a5e7c5-a7a3-4207-83cf-915e4ed4e52d",
+      "publisherDisplayName": "Benjamin Marinacci"
+    },
+    "name": "theme-material",
+    "publisher": "bcmarinacci",
+    "version": "1.3.0"
+  },
+  {
+    "metadata": {
+      "id": "e96f7482-8e97-4155-8a7c-ad5fab4d8b2d",
+      "publisherId": "29a1eb27-2838-48b9-9cb4-a58eca5cee77",
+      "publisherDisplayName": "Jarvis Prestidge"
+    },
+    "name": "theme-material-theme",
+    "publisher": "jprestidge",
+    "version": "1.0.1"
+  },
+  {
+    "metadata": {
+      "id": "3acfcc8d-a050-4675-8e49-cdc9f8945404",
+      "publisherId": "e9a76d04-24d4-44eb-a202-964f71acf59e",
+      "publisherDisplayName": "Sergii Naumov"
+    },
+    "name": "theme-oceanicnext",
+    "publisher": "naumovs",
+    "version": "0.0.4"
+  },
+  {
+    "metadata": {
+      "id": "450d63ed-8ac6-4694-b26e-77cb20bcb25e",
+      "publisherId": "fc5e9493-6ca3-452b-9e0a-8a9be2be7798",
+      "publisherDisplayName": "qinjia"
+    },
+    "name": "view-in-browser",
+    "publisher": "qinjia",
+    "version": "0.0.5"
+  },
+  {
+    "metadata": {
+      "id": "583b2b34-2c1e-4634-8c0b-0b82e283ea3a",
+      "publisherId": "29859a75-d81b-4f0e-8578-2c80ecee6f99",
+      "publisherDisplayName": "Dirk Baeumer"
+    },
+    "name": "vscode-eslint",
+    "publisher": "dbaeumer",
+    "version": "1.2.2"
+  },
+  {
+    "metadata": {
+      "id": "9ccc1dd7-7ec4-4a46-bd4f-7d7b8b9d322a",
+      "publisherId": "3d894ec1-7c48-4c7d-9d12-9738c4d94db3",
+      "publisherDisplayName": "Roberto Huertas"
+    },
+    "name": "vscode-icons",
+    "publisher": "robertohuertasm",
+    "version": "7.0.1"
+  },
+  {
+    "metadata": {
+      "id": "b7495032-d1d3-4be2-a2a1-695559fcd3d6",
+      "publisherId": "261c2fe7-dbea-4dbf-bff3-6da4a886e8d2",
+      "publisherDisplayName": "David Bankier"
+    },
+    "name": "vscode-instant-markdown",
+    "publisher": "dbankier",
+    "version": "0.2.1"
+  },
+  {
+    "metadata": {
+      "id": "56c1f2d5-5d32-4a45-93e4-b1429142ef1f",
+      "publisherId": "82f7b4d7-b75b-4632-90e6-5b8a5109299f",
+      "publisherDisplayName": "lonefy"
+    },
+    "name": "vscode-JS-CSS-HTML-formatter",
+    "publisher": "lonefy",
+    "version": "0.2.2"
+  },
+  {
+    "metadata": {
+      "id": "fed88ff8-6eb4-4f28-af54-1462c358aad2",
+      "publisherId": "cd9b9573-63fa-4876-b47c-1649884eb2f5",
+      "publisherDisplayName": "Sean Washington"
+    },
+    "name": "vue",
+    "publisher": "seanwash",
+    "version": "0.4.2"
+  },
+  {
+    "metadata": {
+      "id": "25091d5b-da4b-45c3-893e-cb1bd7a27cda",
+      "publisherId": "a17b58ea-6357-4fe4-9eec-004515f9b89b",
+      "publisherDisplayName": "liuji-jim"
+    },
+    "name": "vue",
+    "publisher": "liuji-jim",
+    "version": "0.1.5"
+  },
+  {
+    "metadata": {
+      "id": "3620b114-6fe8-459b-8c68-99943147069b",
+      "publisherId": "8d711594-469c-48e6-b07c-32197084b71c",
+      "publisherDisplayName": "hollowtree"
+    },
+    "name": "vue-snippets",
+    "publisher": "hollowtree",
+    "version": "0.1.0"
+  }
+]
