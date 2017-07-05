@@ -31,6 +31,8 @@ choco install -y slack
 choco install -y sourcecodepro
 
 # TOOLS
+choco install -y wox
+choco install -y seer
 choco install -y filezilla
 choco install -y bitvise-ssh-client
 
