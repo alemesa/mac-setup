@@ -1,17 +1,14 @@
 # dotfiles
 Repository for all my configuration settings
 
-- Apple
+* Apple
+    * MacOS 
+    * Brewfile
 
-* MacOS 
-* Brewfile
+* Editors
+    * VSCode
+    * Sublime
+    * Atom
 
-- Editors
-
-* VSCode
-* Sublime
-* Atom
-
-- Windows
-
-* Chocolatey
+* Windows
+    * Chocolatey
