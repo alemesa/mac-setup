@@ -10,6 +10,7 @@
 - [VSCode](#vscode)
 - [MySQL](#mysql)
 - [Node](#node)
+- [Others](#others)
 
 
 ### iTerm2
@@ -21,6 +22,36 @@ Better console
 * In **iTerm > Preferences...**, under the tab **General**, uncheck **Confirm closing multiple sessions** and **Confirm "Quit iTerm2 (Cmd+Q)" command** under the section **Closing**.
 
 * In the tab **Profiles**, create a new one with the "+" icon, and rename it to your first name for example. Then, select **Other Actions... > Set as Default**. Finally, under the section **Window**, change the size to something better, like **Columns: 125** and **Rows: 35**.
+
+* Configure oh-my-zsh with Cobalt2
+
+Paste on a terminal to install Oh-My-Zsh
+```bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+```
+
+Install Powerline-Fonts
+```bash
+# clone
+git clone https://github.com/powerline/fonts.git --depth=1
+# install
+cd fonts
+./install.sh
+# clean-up a bit
+cd ..
+rm -rf fonts
+```
+
+1. Drop the cobalt2.zsh-theme file in to the ~/.oh-my-zsh/themes/ directory.
+2. Open up your ZSH preferences at ~/.zshrc and change the theme variable to ZSH_THEME=cobalt2.
+3. In iTerm2 access the Preferences pane on the Profiles tab.
+4. Under the Colors tab import the cobalt2.itermcolors file via the Load Presets drop-down.
+5. Under the Text tab change the font for each type (Regular and Non-ASCII) to 'Inconsolata for Powerline'. (Refer to the powerline-fonts repo for help on font installation.)
+6. Refresh ZSH by typing source ~/.zshrc on the command line.
+
+
+
+Download Cobalt2-iterm from [here](https://github.com/wesbos/Cobalt2-iterm)
 
 ### Homebrew
 
@@ -45,14 +76,12 @@ echo 'export PATH="/usr/local/bin:$PATH"' >> ~/.bash_profile
 brew install mas
 mas signin mail@mail.com
 ```
-* Open /Users/you
-and create a file called brewfile
+* Create a file called brewfile
 
 ```bash
 touch ~/brewfile
 ```
 * Brewfile
-
 
 ```bash
 tap 'caskroom/cask'
@@ -106,6 +135,7 @@ Add useful alias
 
 ```bash
 alias brewup='brew update; brew upgrade; brew prune; brew cleanup; brew doctor'
+alias cd..='cd ..'
 ```
 Restart bash profile and run __brewup__
 
@@ -205,4 +235,12 @@ PATH=/usr/local/share/npm/bin:$PATH
 
 ```js
 npm install --global gulp-cli
+```
+
+
+### Others
+
+* Show hidden files
+```bash
+defaults write com.apple.finder AppleShowAllFiles YES
 ```
