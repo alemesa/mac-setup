@@ -185,6 +185,12 @@ Use Settings-Sync Extension
 
 Find my config [here](https://gist.github.com/alemesa/e1d85a6d82e56872f6ddfaf73fc11537)
 
+Open VSCode and type "shell command" and add to the PATH. Close VSCODE, restar Terminal , now you can use any project with this
+
+```bash
+code \directory\to\open
+```
+
 ### MySQL
 
 * To install, run:
