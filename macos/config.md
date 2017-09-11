@@ -86,42 +86,56 @@ touch ~/brewfile
 * Brewfile
 
 ```bash
-tap 'caskroom/cask'   # To install almost every app
+## Required to install almost every app
+tap 'caskroom/cask'
 
 # Essentials
-brew 'git'      # Essential
-brew 'npm'      # Essential
-brew 'heroku'   # Cloud Based Paas
+brew 'git'          # Essential
+brew 'node'         # Essential comes with npm
+brew 'heroku'       # Cloud Based Paas
 
 # Browsers
+cask 'google-chrome' # Browser
+cask 'firefox'       # Browser
 
-# Coding
+# Coding Essentials
+cask 'visual-studio-code'   # Awesomeness 🎆 💻 🎆
+cask 'sourcetree'           # Git GUI
+cask 'sublime-text'         # Ultra fast 🏃
 
+# Design Essentials
+cask 'sketch'        # Epic design tool
+cask 'noun-project'  # Free icons
 
-# Utilities
-cask 'dropbox'       # Backup
+# MAC Quality of life
 cask 'rocket'        # Emojis on 💊
 cask 'alfred'        # Spotlight on 💊
-cask 'gitkraken'     # GitKraken
-cask 'spotify'       # Music
-cask 'slack'         # Communication
-cask 'flux'          # Eyes Health
-cask 'firefox'       # Browser
-cask 'google-chrome' # Browser
 cask 'spectacle'     # Windows Rearrangment
+
+# Utilities
+cask 'spotify'       # Music
+cask 'slack'         # Chat - Work
+cask 'discord'       # Chat - Games
+cask 'whatsapp'      # Chat - Personal
+cask 'flux'          # Eyes Health
+cask 'adobe-acrobat-reader'    # PDF Reader
+cask 'transmission'  # Torrents Manager   
+
+# Cloud
+cask 'dropbox'                 # Dropbox Cloud  
+cask 'google-backup-and-sync'  # Google Cloud
+
+# Coding Utilities
 cask 'sequel-pro'    # SQL
 cask 'vlc'           # Videos
-cask 'discord'       # Chat - Games
 cask 'filezilla'     # FTP
-cask 'slack'         # Chat - Work
-cask 'heroku-toolbelt'  # 🔥
-cask 'sourcetree'    # Git GUI
-cask 'noun-project'  # Free icons
-cask 'visual-studio-code'   # Awesomeness 🎆 💻 🎆
 
-mas 'Amphetamine' id: 937984704   # Stop Mac from sleeping
-mas 'Parcel - Delivery Tracking' id: 639968404   # Delivery Tracking
-mas 'Pocket', id: 568494494   # Saved articles
+# Others
+mas 'Amphetamine' id: 937984704 # Stop Mac from sleeping
+mas 'Parcel - Delivery Tracking' id: 639968404 # Delivery Tracking
+mas 'Pocket', id: 568494494 # Saved articles
+mas 'Skitch - Snap. Mark up. Share.', id: 425955336 # Markup tools
+mas 'Dr. Cleaner: Disk,Memory,System Optimizer', id: 921458519 # Clean memory and space 
 ```
 
 Use this to find apps with Mas
@@ -134,6 +148,9 @@ mas search slack
 ```bash
 brew bundle install
 ```
+
+* Install these apps manually
+    - Microsoft Office Suite
 
 ### Bash
 ___
@@ -171,7 +188,7 @@ git config --global user.email "Email"
 git config --global credential.helper osxkeychain
 ```
 
-My .gitconfig will look like this 
+Typical .gitconfig will look like this, be free to remove alias 
 
 ```bash
 [user]
@@ -198,7 +215,7 @@ Or copy this [.gitignore](https://github.com/nicolashery/mac-dev-setup/blob/mast
 ### VSCode
 ___
 
-Use Settings-Sync Extension
+* Use Settings-Sync Extension
 
 Find my config [here](https://gist.github.com/alemesa/e1d85a6d82e56872f6ddfaf73fc11537)
 
