@@ -1,6 +1,0 @@
-{
-	"browsers": ["defaults"],
-	"cascade": true,
-	"remove": true,
-	"prefixOnSave": false
-}
