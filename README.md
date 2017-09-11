@@ -226,7 +226,7 @@ code \directory\to\open
 ```
 
 My User Settings look like this
-```json
+```javascript
 {
   // Place your settings in this file to overwrite the default settings
   "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
