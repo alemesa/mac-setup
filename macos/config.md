@@ -14,6 +14,7 @@
 
 
 ### iTerm2
+___
 
 Better console
 
@@ -54,6 +55,7 @@ rm -rf fonts
 Download Cobalt2-iterm from [here](https://github.com/wesbos/Cobalt2-iterm)
 
 ### Homebrew
+___
 
 The most popular package manager one for OS X is [Homebrew](http://brew.sh/).
 
@@ -84,30 +86,42 @@ touch ~/brewfile
 * Brewfile
 
 ```bash
-tap 'caskroom/cask'
+tap 'caskroom/cask'   # To install almost every app
 
-brew 'git'
-brew 'npm'
+# Essentials
+brew 'git'      # Essential
+brew 'npm'      # Essential
+brew 'heroku'   # Cloud Based Paas
 
-cask 'dropbox'
-cask 'rocket'
-cask 'alfred'
-cask 'gitkraken'
-cask 'spotify'
-cask 'slack'
-cask 'flux'
-cask 'firefox'
-cask 'google-chrome'
-cask 'spectacle'
-cask 'sequel-pro'
-cask 'vlc'
-cask 'discord'
-cask 'filezilla'
+# Browsers
 
-mas 'Amphetamine' id: 937984704
-mas 'Parcel - Delivery Tracking' id: 639968404
-mas 'Slack', id: 803453959
-mas 'Pocket', id: 568494494
+# Coding
+
+
+# Utilities
+cask 'dropbox'       # Backup
+cask 'rocket'        # Emojis on 💊
+cask 'alfred'        # Spotlight on 💊
+cask 'gitkraken'     # GitKraken
+cask 'spotify'       # Music
+cask 'slack'         # Communication
+cask 'flux'          # Eyes Health
+cask 'firefox'       # Browser
+cask 'google-chrome' # Browser
+cask 'spectacle'     # Windows Rearrangment
+cask 'sequel-pro'    # SQL
+cask 'vlc'           # Videos
+cask 'discord'       # Chat - Games
+cask 'filezilla'     # FTP
+cask 'slack'         # Chat - Work
+cask 'heroku-toolbelt'  # 🔥
+cask 'sourcetree'    # Git GUI
+cask 'noun-project'  # Free icons
+cask 'visual-studio-code'   # Awesomeness 🎆 💻 🎆
+
+mas 'Amphetamine' id: 937984704   # Stop Mac from sleeping
+mas 'Parcel - Delivery Tracking' id: 639968404   # Delivery Tracking
+mas 'Pocket', id: 568494494   # Saved articles
 ```
 
 Use this to find apps with Mas
@@ -122,6 +136,7 @@ brew bundle install
 ```
 
 ### Bash
+___
 
 * Create a .bash_profile
 
@@ -147,6 +162,7 @@ brewup
 Now you can run  and that's it it will update homebrew packages
 
 ### Git
+___
 
 ```bash
 touch ~/.gitconfig
@@ -180,6 +196,7 @@ My .gitconfig will look like this
 Or copy this [.gitignore](https://github.com/nicolashery/mac-dev-setup/blob/master/.gitignore)
 
 ### VSCode
+___
 
 Use Settings-Sync Extension
 
@@ -192,6 +209,7 @@ code \directory\to\open
 ```
 
 ### MySQL
+___
 
 * To install, run:
 
@@ -219,6 +237,7 @@ exit # to quit the shell
 ```
 
 ### Node
+___
 
 * Install Node
 
@@ -238,7 +257,7 @@ PATH=/usr/local/share/npm/bin:$PATH
 ```
 
 * Install Node Goodies
-
+    - Gulp
 ```js
 npm install --global gulp-cli
 ```
@@ -246,7 +265,7 @@ npm install --global gulp-cli
 
 ### Others
 
-* Show hidden files
+* Show hidden files, paste this on the command line
 ```bash
 defaults write com.apple.finder AppleShowAllFiles YES
 ```
