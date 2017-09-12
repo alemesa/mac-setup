@@ -93,6 +93,7 @@ tap 'caskroom/cask'
 brew 'git'          # Essential
 brew 'node'         # Essential comes with npm
 brew 'heroku'       # Cloud Based Paas
+brew 'git-lfs'      # Git Big Files Transfer
 
 # Browsers
 cask 'google-chrome' # Browser
@@ -142,7 +143,6 @@ Use this to find apps with Mas
 ```bash
 mas search slack
 ```
-
 * Install everything by running this
 
 ```bash
@@ -323,9 +323,13 @@ PATH=/usr/local/share/npm/bin:$PATH
 ```
 
 * Install Node Goodies
-    - Gulp
+ Gulp
 ```js
 npm install --global gulp-cli
+```
+ Git Lfs
+```bash
+git lfs install
 ```
 
 
