@@ -50,9 +50,9 @@ rm -rf fonts
 5. Under the Text tab change the font for each type (Regular and Non-ASCII) to 'Inconsolata for Powerline'. (Refer to the powerline-fonts repo for help on font installation.)
 6. Refresh ZSH by typing source ~/.zshrc on the command line.
 
-
-
 Download Cobalt2-iterm from [here](https://github.com/wesbos/Cobalt2-iterm)
+
+* Modify starting folder on iTerm/Preferences
 
 ### Homebrew
 ___
@@ -167,7 +167,6 @@ Add useful alias
 
 ```bash
 alias brewup='brew update; brew upgrade; brew prune; brew cleanup; brew doctor'
-alias cd..='cd ..'
 ```
 Restart bash profile and run __brewup__
 
@@ -211,6 +210,18 @@ Typical .gitconfig will look like this, be free to remove alias
 ```
 
 Or copy this [.gitignore](https://github.com/nicolashery/mac-dev-setup/blob/master/.gitignore)
+
+I like to keep my alias on .zshrc
+
+Open ~/.zshrc and at the end add these alias
+
+```bash
+alias zshconfig="code ~/.zshrc"
+alias cd..="cd .."
+alias batcave="cd ~/Dropbox/batcave"
+alias jobcave="cd ~/Projects"
+alias brewup='brew update; brew upgrade; brew prune; brew cleanup; brew doctor'
+```
 
 ### VSCode
 ___
