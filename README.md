@@ -384,6 +384,7 @@ git lfs install
 ### Alfred
 
 * Make Alfred substitute for Spotlight
+* Install this [theme](https://github.com/wesbos/Cobalt2-Alfred-Theme) if you have the Powerpack ($50)
 
 
 ### Others
@@ -391,6 +392,16 @@ git lfs install
 * Show hidden files, paste this on the command line
 ```bash
 defaults write com.apple.finder AppleShowAllFiles YES
+```
+
+* Show path bar
+```bash
+defaults write com.apple.finder ShowPathbar -bool true
+```
+
+* Show status bar
+```bash
+defaults write com.apple.finder ShowStatusBar -bool true
 ```
 
 ### Thanks
