@@ -14,7 +14,7 @@
 - [Alfred](#alfred)
 - [DevToolsAuthor](#devtoolsauthor)
 - [Others](#others)
-- [~Thanks~](#thanks)
+- [Thanks!](#thanks)
 
 ### Fonts
 
