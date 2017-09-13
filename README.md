@@ -2,7 +2,7 @@
 ## Inspired by [Nicolashery](https://github.com/nicolashery/mac-dev-setup)
 
 ! Work in progress
-
+- [Fonts](#fonts)
 - [iTerm2](#iterm2)
 - [Homebrew](#homebrew)
 - [Bash](#bash)
@@ -11,6 +11,14 @@
 - [MySQL](#mysql)
 - [Node](#node)
 - [Others](#others)
+
+### Fonts
+
+Awesome fonts:
+ - FiraCode (free) - [link](https://github.com/tonsky/FiraCode)
+ - Operator Mono ($200) - [link](https://www.typography.com/blog/introducing-operator)
+
+Both are good, Operator Mono has cursive ligatures and Fira Code contains operator ligatures, to install just double clicked them.
 
 
 ### iTerm2
@@ -51,6 +59,13 @@ rm -rf fonts
 6. Refresh ZSH by typing source ~/.zshrc on the command line.
 
 Download Cobalt2-iterm from [here](https://github.com/wesbos/Cobalt2-iterm)
+
+
+`Screenshot of iTerm2 with ZSH`
+
+<div align="center">
+    <img src="./images/zsh.png"/>
+</div>
 
 * Modify starting folder on iTerm/Preferences
 
@@ -240,27 +255,27 @@ My User Settings look like this
 ```javascript
 {
   // Place your settings in this file to overwrite the default settings
-  "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
-  "editor.fontSize": 14,
+  "editor.fontFamily":
+    "'Operator Mono','Fira Code',Consolas, 'Courier New', monospace",
+  "editor.fontSize": 15,
   "editor.lineHeight": 0,
   "editor.lineNumbers": "on",
   "workbench.sideBar.location": "left",
+  //GIST SYNCYING
   "sync.gist": "e1d85a6d82e56872f6ddfaf73fc11537",
-  "sync.lastUpload": "2017-09-07T13:31:26.210Z",
+  "sync.lastUpload": "2017-09-13T02:13:04.214Z",
   "sync.autoDownload": true,
   "sync.autoUpload": true,
-  "sync.lastDownload": "2017-05-26T05:55:47.892Z",
+  "sync.lastDownload": "2017-09-13T01:22:55.912Z",
   "sync.forceDownload": false,
   "sync.anonymousGist": false,
+  "sync.host": "",
+  "sync.pathPrefix": "",
+  // THEME AND ICON
   "workbench.colorTheme": "Sublime Material Theme - Dark",
   "workbench.iconTheme": "seti",
   "vsicons.projectDetection.autoReload": true,
-  "sync.host": "",
-  "sync.pathPrefix": "",
-  "php.validate.executablePath": "C:/PHP/php.exe",
-  "emmet.syntaxProfiles": {
-    "javascript": "jsx"
-  },
+  // WORKBENCH CUSTOMIZATION
   "workbench.colorCustomizations": {
     "statusBar.background": "#0D47A1",
     "activityBar.background": "#212121",
@@ -272,18 +287,31 @@ My User Settings look like this
     "panel.background": "#212121",
     "panelTitle.activeBorder": "#FDD835"
   },
+  // OTHERS
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
   "editor.renderIndentGuides": false,
   "git.enableSmartCommit": true,
   "editor.formatOnSave": true,
+  "prettier.singleQuote": true,
   "terminal.integrated.shell.osx": "/bin/zsh",
   "sync.quietSync": false,
-  "sync.askGistName": false
+  "sync.askGistName": false,
+  "terminal.integrated.fontSize": 14
   //"stylelint.enable": true,
   //"css.validate": false,
   //"scss.validate": false
 }
 
+
 ```
+
+`Screenshot of Visual Studio Code`
+
+<div align="center">
+    <img src="./images/vscode.png"/>
+</div>
 
 ### MySQL
 ___
