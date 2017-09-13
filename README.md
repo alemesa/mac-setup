@@ -12,6 +12,7 @@
 - [Node](#node)
 - [Slack](#slack)
 - [Alfred](#alfred)
+- [DevToolsAuthor](#devtoolsauthor)
 - [Others](#others)
 - [~Thanks~](#thanks)
 
@@ -385,6 +386,15 @@ git lfs install
 
 * Make Alfred substitute for Spotlight
 * Install this [theme](https://github.com/wesbos/Cobalt2-Alfred-Theme) if you have the Powerpack ($50)
+
+
+### DevToolsAuthor
+
+Follow this [guide](http://mikeking.io/devtools-author/) and then select a theme on the Author Settings tab inside the Chrome Dev Tools. I'm using the `Google Theme` with `Fira Code` font and `13px` size.
+
+<div align="center">
+    <img src="./images/devtools.png"/>
+</div>
 
 
 ### Others
