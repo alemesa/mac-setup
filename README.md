@@ -1,5 +1,5 @@
 # Mac-Setup
-## Inspired by [Nicolashery](https://github.com/nicolashery/mac-dev-setup)
+
 
 ! Work in progress
 - [Fonts](#fonts)
@@ -10,7 +10,10 @@
 - [VSCode](#vscode)
 - [MySQL](#mysql)
 - [Node](#node)
+- [Slack](#slack)
+- [Alfred](#alfred)
 - [Others](#others)
+- [~Thanks~](#thanks)
 
 ### Fonts
 
@@ -371,6 +374,17 @@ npm install --global gulp-cli
 git lfs install
 ```
 
+### Slack
+
+[Repo here](https://github.com/wesbos/Cobalt2-Slack)
+
+* `Preferences` → `Sidebar Theme`
+* Paste `#193549,#FFC600,#1D425D,#FFFFFF,#FFC600,#FFFFFF,#FFC600,#FFC600`
+
+### Alfred
+
+* Make Alfred substitute for Spotlight
+
 
 ### Others
 
@@ -378,3 +392,11 @@ git lfs install
 ```bash
 defaults write com.apple.finder AppleShowAllFiles YES
 ```
+
+### Thanks
+
+* Inspired by [Nicolashery Similar Repo](https://github.com/nicolashery/mac-dev-setup)
+* Also partially inspired by this [post](https://www.taniarascia.com/setting-up-a-brand-new-mac-for-development/) from Tania Rascia
+* Big thanks to [WesBos 🍖](http://wesbos.com/) because yeah I use everything he uses, he's pure 🔥🔥🔥 
+
+
