@@ -140,6 +140,7 @@ cask 'whatsapp'      # Chat - Personal
 cask 'flux'          # Eyes Health
 cask 'adobe-acrobat-reader'    # PDF Reader
 cask 'transmission'  # Torrents Manager   
+cask 'postman'       # Api Requests
 
 # Cloud
 cask 'dropbox'                 # Dropbox Cloud  
@@ -373,6 +374,14 @@ npm install --global gulp-cli
  Git Lfs
 ```bash
 git lfs install
+```
+ Surge Deploy
+```bash
+npm install -g surge
+```
+* To deploy a project
+```bash
+surge <path>
 ```
 
 ### Slack
