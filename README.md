@@ -8,6 +8,7 @@
 - [Bash](#bash)
 - [Git](#git)
 - [VSCode](#vscode)
+- [Sublime Text](#sublime)
 - [MySQL](#mysql)
 - [Node](#node)
 - [Slack](#slack)
@@ -157,6 +158,7 @@ mas 'Parcel - Delivery Tracking' id: 639968404 # Delivery Tracking
 mas 'Pocket', id: 568494494 # Saved articles
 mas 'Skitch - Snap. Mark up. Share.', id: 425955336 # Markup tools
 mas 'Dr. Cleaner: Disk,Memory,System Optimizer', id: 921458519 # Clean memory and space 
+mas 'GIPHY Capture. The GIF Maker', id: 668208984 # Capture Gifs + Captions
 ```
 
 Use this to find apps with Mas
@@ -316,6 +318,29 @@ My User Settings look like this
 
 <div align="center">
     <img src="./images/vscode.png"/>
+</div>
+
+### Sublime
+
+* Install Package Manager
+
+Go [here](https://packagecontrol.io/installation)
+
+* Follow this [guide](https://engageinteractive.co.uk/blog/getting-setup-on-sublime-text-3-2017-edition) to install theme and plugins
+
+* Install Babel for React syntax
+    - Follow this [guide](https://github.com/babel/babel-sublime)
+
+* Be able to open sublime from the command line
+
+    - Paste this on the command line
+```bash
+ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/sublime
+```
+`Screenshot of Sublime Text 3`
+
+<div align="center">
+    <img src="./images/sublime.png"/>
 </div>
 
 ### MySQL
