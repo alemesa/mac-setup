@@ -22,6 +22,7 @@
 Awesome fonts:
  - FiraCode (free) - [link](https://github.com/tonsky/FiraCode)
  - Operator Mono ($200) - [link](https://www.typography.com/blog/introducing-operator)
+ - Monaco (free) - Comes with Mac
 
 Both are good, Operator Mono has cursive ligatures and Fira Code contains operator ligatures, to install just double clicked them.
 
@@ -66,7 +67,7 @@ rm -rf fonts
 Download Cobalt2-iterm from [here](https://github.com/wesbos/Cobalt2-iterm)
 
 
-`Screenshot of iTerm2 with ZSH`
+`Screenshot of iTerm2 with ZSH + Inconsolata for Powerline`
 
 <div align="center">
     <img src="./images/zsh.png"/>
@@ -314,11 +315,13 @@ My User Settings look like this
 
 ```
 
-`Screenshot of Visual Studio Code`
+`Screenshot of Visual Studio Code + Operator Mono`
 
 <div align="center">
     <img src="./images/vscode.png"/>
 </div>
+
+
 
 ### Sublime
 
@@ -337,7 +340,11 @@ Go [here](https://packagecontrol.io/installation)
 ```bash
 ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/sublime
 ```
-`Screenshot of Sublime Text 3`
+
+* Fonts:
+    - Operator Mono
+
+`Screenshot of Sublime Text 3 + Operator Mono`
 
 <div align="center">
     <img src="./images/sublime.png"/>
