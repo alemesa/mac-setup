@@ -160,6 +160,8 @@ mas 'Pocket', id: 568494494 # Saved articles
 mas 'Skitch - Snap. Mark up. Share.', id: 425955336 # Markup tools
 mas 'Dr. Cleaner: Disk,Memory,System Optimizer', id: 921458519 # Clean memory and space 
 mas 'GIPHY Capture. The GIF Maker', id: 668208984 # Capture Gifs + Captions
+mas 'Trello', id: 1278508951 # To-Do Work
+mas 'TickTick - your to-do list & task management', id: 966085870 # To-Do Me
 ```
 
 Use this to find apps with Mas
