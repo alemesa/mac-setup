@@ -2,6 +2,7 @@
 
 
 ! Work in progress
+- [Start](#start)
 - [Fonts](#fonts)
 - [iTerm2](#iterm2)
 - [Homebrew](#homebrew)
@@ -15,22 +16,51 @@
 - [Alfred](#alfred)
 - [DevToolsAuthor](#devtoolsauthor)
 - [Others](#others)
+- [Python](#python)
 - [Thanks!](#thanks)
 
-### Fonts
+### Start
+---
+`Start Here Please`
 
-Awesome fonts:
+Quality of Life changes:
+- Instal XCode Suite (even if you don't need it anymore you will probably need along the road)
+```bash
+xcode-select --install
+```
+- Install [Google Chrome](www.google.com/chrome) (Make it default)
+- Remove useless icons from the sidebar
+- Speed up the keyboard on Preferences (🔥 Hot Tip)
+- Show battery percentage, right click battery
+- Change the TrackPad to tap to click
+- Activate App Expose on the TrackPad Gestures
+
+<div align="center">
+<img src="./images/KeyboardSpeed.png" width="49%">
+<img src="./images/BatteryPercentage.png" width="50%">
+<img src="./images/TapToClick.png" width="49%">
+<img src="./images/AppExpose.png" width="50%">
+</div>
+
+
+### Fonts
+---
+`Better Fonts for Development`
+
+I like these fonts:
  - FiraCode (free) - [link](https://github.com/tonsky/FiraCode)
  - Operator Mono ($200) - [link](https://www.typography.com/blog/introducing-operator)
- - Monaco (free) - Comes with Mac
+ - Hack (free) - [link](https://github.com/source-foundry/Hack)
 
-Both are good, Operator Mono has cursive ligatures and Fira Code contains operator ligatures, to install just double clicked them.
+Visit [Nerd Fonts](https://nerdfonts.com/) They have a long list of good programming fonts (Hot Tip: 🔥)
+
+Operator Mono has cursive ligatures and Fira Code contains operator ligatures, to install just double clicked them.
 
 
 ### iTerm2
 ___
 
-Better console
+`Epic Better Console`
 
 * Download and install [iTerm2](http://www.iterm2.com/)
 
@@ -73,15 +103,17 @@ Download Cobalt2-iterm from [here](https://github.com/wesbos/Cobalt2-iterm)
     <img src="./images/zsh.png"/>
 </div>
 
-* Modify starting folder on iTerm/Preferences
+* Modify starting folder on **iTerm/Preferences**
 
 ### Homebrew
 ___
+`Package Manager for OSX`
 
-The most popular package manager one for OS X is [Homebrew](http://brew.sh/).
+Find the documentation and manual install here
+ [Homebrew](http://brew.sh/).
 
 
-* Install Homebrew
+* Install Homebrew on the terminal
 ```bash
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
@@ -104,7 +136,7 @@ mas signin mail@mail.com
 ```bash
 touch ~/brewfile
 ```
-* Brewfile
+* My Brewfile
 
 ```bash
 ## Required to install almost every app
@@ -115,6 +147,9 @@ brew 'git'          # Essential
 brew 'node'         # Essential comes with npm
 brew 'heroku'       # Cloud Based Paas
 brew 'git-lfs'      # Git Big Files Transfer
+brew 'yarn'         # npm on 💊
+brew 'zsh-completions'
+brew 'tree'         # Tree Command
 
 # Browsers
 cask 'google-chrome' # Browser
@@ -122,7 +157,7 @@ cask 'firefox'       # Browser
 
 # Coding Essentials
 cask 'visual-studio-code'   # Awesomeness 🎆 💻 🎆
-cask 'sourcetree'           # Git GUI
+cask 'github-desktop'       # Git GUI
 cask 'sublime-text'         # Ultra fast 🏃
 
 # Design Essentials
@@ -143,6 +178,7 @@ cask 'flux'          # Eyes Health
 cask 'adobe-acrobat-reader'    # PDF Reader
 cask 'transmission'  # Torrents Manager   
 cask 'postman'       # Api Requests
+cask 'calibre'       # E-Books Manager
 
 # Cloud
 cask 'dropbox'                 # Dropbox Cloud  
@@ -160,9 +196,16 @@ mas 'Pocket', id: 568494494 # Saved articles
 mas 'Skitch - Snap. Mark up. Share.', id: 425955336 # Markup tools
 mas 'Dr. Cleaner: Disk,Memory,System Optimizer', id: 921458519 # Clean memory and space 
 mas 'GIPHY Capture. The GIF Maker', id: 668208984 # Capture Gifs + Captions
+mas 'Trello', id: 1278508951 # Task Manager
 ```
+Feel free to add or remove apps
 
-Use this to find apps with Mas
+Find the apps either on the [Cask Search Website](https://caskroom.github.io/search)
+or use this on the console
+```bash
+brew cask search <package>
+```
+or use this to find apps with Mas on the console
 ```bash
 mas search slack
 ```
@@ -173,7 +216,7 @@ brew bundle install
 ```
 
 * Install these apps manually
-    - Microsoft Office Suite
+  - Microsoft Office Suite
 
 ### Bash
 ___
@@ -202,7 +245,7 @@ Now you can run  and that's it it will update homebrew packages
 
 ### Git
 ___
-
+`Configure Git and Aliases`
 ```bash
 touch ~/.gitconfig
 git config --global user.name "First Last"
@@ -210,7 +253,7 @@ git config --global user.email "Email"
 git config --global credential.helper osxkeychain
 ```
 
-Typical .gitconfig will look like this, be free to remove alias 
+Typical .gitconfig will look like this, be free to remove aliases 
 
 ```bash
 [user]
@@ -232,49 +275,67 @@ Typical .gitconfig will look like this, be free to remove alias
     helper = osxkeychain
 ```
 
-Or copy this [.gitignore](https://github.com/nicolashery/mac-dev-setup/blob/master/.gitignore)
+`Generate a new SSH Key`
+```
+ssh-keygen -t rsa -C "your_email@example.com"
+```
+Add the key to your Github Account
+
+Add the DS_Store to your gitignore
+
+```bash
+# specify a global exclusion list
+git config --global core.excludesfile ~/.gitignore
+# adding .DS_Store to that list
+echo .DS_Store >> ~/.gitignore
+```
+Or add this [gitignore](https://github.com/github/gitignore/blob/master/Global/macOS.gitignore) file mantained by Github to your gitignore
+
+
 
 I like to keep my alias on .zshrc
 
 Open ~/.zshrc and at the end add these alias
 
 ```bash
-alias zshconfig="code ~/.zshrc"
-alias cd..="cd .."
-alias batcave="cd ~/Dropbox/batcave"
-alias jobcave="cd ~/Projects"
-alias brewup='brew update; brew upgrade; brew prune; brew cleanup; brew doctor'
+alias zshconfig="code ~/.zshrc" # Modify this file
+alias cd..="cd .." # Most Important Alias
+alias batcave="cd ~/Dropbox/batcave" # Side Projects
+alias jobcave="cd ~/Projects" # 8hrs Job Project
+alias brewup='brew update; brew upgrade; brew prune; brew cleanup; brew doctor' # Quick House Cleaning
 ```
 
 ### VSCode
 ___
+`Best Code Editor`
 
 * Use Settings-Sync Extension
 
 Find my config [here](https://gist.github.com/alemesa/e1d85a6d82e56872f6ddfaf73fc11537)
 
-Open VSCode and type "shell command" and add to the PATH. Close VSCODE, restar Terminal , now you can use any project with this
+Open VSCode and type "shell command" and add to the PATH. Close VSCODE, restart Terminal , now you can use any project with this
 
 ```bash
 code \directory\to\open
 ```
 
-My User Settings look like this
+My User Settings look like this [October 2017]
 ```javascript
 {
+  // Settings for Material Theme
   // Place your settings in this file to overwrite the default settings
   "editor.fontFamily":
-    "'Operator Mono','Fira Code',Consolas, 'Courier New', monospace",
+    "'Operator Mono','Fira Code',Consolas, Monaco, 'Courier New', monospace",
   "editor.fontSize": 15,
-  "editor.lineHeight": 0,
+  "editor.lineHeight": 25,
   "editor.lineNumbers": "on",
   "workbench.sideBar.location": "left",
   //GIST SYNCYING
   "sync.gist": "e1d85a6d82e56872f6ddfaf73fc11537",
-  "sync.lastUpload": "2017-09-13T02:13:04.214Z",
+  "sync.lastUpload": "2017-10-05T17:57:45.551Z",
   "sync.autoDownload": true,
   "sync.autoUpload": true,
-  "sync.lastDownload": "2017-09-13T01:22:55.912Z",
+  "sync.lastDownload": "2017-09-26T13:53:50.621Z",
   "sync.forceDownload": false,
   "sync.anonymousGist": false,
   "sync.host": "",
@@ -282,7 +343,6 @@ My User Settings look like this
   // THEME AND ICON
   "workbench.colorTheme": "Sublime Material Theme - Dark",
   "workbench.iconTheme": "seti",
-  "vsicons.projectDetection.autoReload": true,
   // WORKBENCH CUSTOMIZATION
   "workbench.colorCustomizations": {
     "statusBar.background": "#0D47A1",
@@ -302,17 +362,22 @@ My User Settings look like this
   "editor.renderIndentGuides": false,
   "git.enableSmartCommit": true,
   "editor.formatOnSave": true,
+  "eslint.autoFixOnSave": true,
   "prettier.singleQuote": true,
   "terminal.integrated.shell.osx": "/bin/zsh",
   "sync.quietSync": false,
   "sync.askGistName": false,
-  "terminal.integrated.fontSize": 14
+  "terminal.integrated.fontSize": 14,
+  "editor.tabCompletion": true,
+  "javascript.format.enable": false,
+  "prettier.eslintIntegration": true,
+  "editor.cursorBlinking": "blink",
+  "window.zoomLevel": 0
   //"stylelint.enable": true,
   //"css.validate": false,
   //"scss.validate": false
+  // Settings for WesBos theme
 }
-
-
 ```
 
 `Screenshot of Visual Studio Code + Operator Mono`
@@ -324,6 +389,7 @@ My User Settings look like this
 
 
 ### Sublime
+`Second Best Code editor`
 
 * Install Package Manager
 
@@ -398,15 +464,27 @@ To do so, add this line to your `~/.path` file, before the `export PATH` line:
 PATH=/usr/local/share/npm/bin:$PATH
 ```
 
-* Install Node Goodies
- Gulp
+`npm Usage`
+
+npm Commands:
+```bash
+npm install <package>    # Install locally
+npm install -g <package> # Install globally
+npm install <package> --save # Save to a package.json file
+npm list                # What's installed Locally
+npm list -g             # what's installed Globally
+npm outdated [-g]       # Find outdated packages    
+npm update [<package>]  # Upgrade particular package
+npm uninstall <package> # Uninstall Packages
+```
+
+`npm Goodies`
+* **Gulp**
 ```js
 npm install --global gulp-cli
 ```
- Git Lfs
-```bash
-git lfs install
-```
+
+* **Surge**
  Surge Deploy
 ```bash
 npm install -g surge
@@ -422,6 +500,10 @@ surge <path>
 
 * `Preferences` → `Sidebar Theme`
 * Paste `#193549,#FFC600,#1D425D,#FFFFFF,#FFC600,#FFFFFF,#FFC600,#FFC600`
+
+<div align="center">
+    <img src="./images/Slack.png"/>
+</div>
 
 ### Alfred
 
@@ -454,6 +536,22 @@ defaults write com.apple.finder ShowPathbar -bool true
 ```bash
 defaults write com.apple.finder ShowStatusBar -bool true
 ```
+
+### Python
+
+`Raspberry Fun`
+
+```bash
+brew install python
+```
+
+It also installed pip (and its dependency Setuptools), which is the package manager for Python. Let's upgrade them both:
+
+```bash
+$ pip install --upgrade setuptools
+$ pip install --upgrade pip
+```
+
 
 ### Thanks
 
