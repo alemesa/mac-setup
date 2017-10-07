@@ -17,6 +17,7 @@
 - [DevToolsAuthor](#devtoolsauthor)
 - [Others](#others)
 - [Python](#python)
+- [Heroku](#heroku)
 - [Thanks!](#thanks)
 
 ### Start
@@ -538,6 +539,7 @@ defaults write com.apple.finder ShowStatusBar -bool true
 ```
 
 ### Python
+---
 
 `Raspberry Fun`
 
@@ -551,12 +553,63 @@ It also installed pip (and its dependency Setuptools), which is the package mana
 $ pip install --upgrade setuptools
 $ pip install --upgrade pip
 ```
+### Heroku
+---
 
+`Heroku is a Platform-as-a-Service (PaaS) that simplifies deploying your apps online.`
+
+**Installation**
+
+Assuming that you have an Heroku account (sign up if you don't), let's install the Heroku Client for the command-line using Homebrew.
+
+$ brew install heroku-toolbelt
+The formula might not have the latest version of the Heroku Client, which is updated pretty often. Let's update it now:
+
+$ heroku update
+Don't be afraid to run heroku update every now and then to always have the most recent version.
+
+**Setup**
+
+Login to your Heroku account using your email and password:
+
+```bash
+heroku login
+```
+
+If this is a new account, and since you don't already have a public SSH key in your ~/.ssh directory, it will offer to create one for you. It will also upload the key to your Heroku account, which will allow you to deploy apps from this computer.
+
+If it didn't offer create the SSH key for you (i.e. your Heroku account already has SSH keys associated with it), you can do so manually by running:
+
+```bash
+mkdir ~/.ssh
+ssh-keygen -t rsa
+```
+Keep the default file name and skip the passphrase by just hitting Enter both times. Then, add the key to your Heroku account:
+
+```bash
+heroku keys:add
+```
+Usage
+
+Once your keys are in place and you are authorized, you're ready to deploy apps. Heroku has a getting started [guide](https://devcenter.heroku.com/articles/python). Heroku uses Git to push code for deployment, so make sure your app is under Git version control.
+
+**A cheat sheet for deployment**:
+
+```bash
+cd myapp/
+heroku create myapp
+git push heroku master
+heroku ps
+heroku logs -t
+```
+The Heroku Dev Center is where you will find more information.
 
 ### Thanks
+---
 
 * Inspired by [Nicolashery Similar Repo](https://github.com/nicolashery/mac-dev-setup)
 * Also partially inspired by this [post](https://www.taniarascia.com/setting-up-a-brand-new-mac-for-development/) from Tania Rascia
+* Also by this [book](http://sourabhbajaj.com/mac-setup)
 * Big thanks to [WesBos 🍖](http://wesbos.com/) because yeah I use everything he uses, he's pure 🔥🔥🔥 
 
 
