@@ -22,9 +22,9 @@
 
 ### Start
 ---
-<h4 style="width:60%; margin:0 auto ;text-align:center; background-color:#F2453E; color:white">Start Here Please</h4>   
+#### *Start Here Please*
 
-Quality of Life changes:
+<p style="color:blue">Quality of Life changes:</p>
 - Instal XCode Suite (even if you don't need it anymore you will probably need along the road)
 ```bash
 xcode-select --install
@@ -33,8 +33,8 @@ xcode-select --install
 - Remove useless icons from the sidebar
 - Speed up the keyboard on Preferences (🔥 Hot Tip)
 - Show battery percentage, right click battery
-- Change the TrackPad to tap to click
-- Activate App Expose on the TrackPad Gestures
+- Change the TrackPad to "Tap to Click"
+- Activate "App Expose" on the TrackPad Gestures
 
 <div align="center">
 <img src="./images/KeyboardSpeed.png" width="49%">
@@ -46,7 +46,7 @@ xcode-select --install
 
 ### Fonts
 ---
-`Better Fonts for Development`
+#### *Better Fonts for Development*
 
 I like these fonts:
  - FiraCode (free) - [link](https://github.com/tonsky/FiraCode)
@@ -55,13 +55,13 @@ I like these fonts:
 
 Visit [Nerd Fonts](https://nerdfonts.com/) They have a long list of good programming fonts (Hot Tip: 🔥)
 
-Operator Mono has cursive ligatures and Fira Code contains operator ligatures, to install just double clicked them.
+Operator Mono has cursive ligatures and Fira Code contains operator ligatures, to install just double clicked them and Font Book will open up.
 
 
 ### iTerm2
 ___
 
-`Epic Better Console`
+#### *Epic Better Console*
 
 * Download and install [iTerm2](http://www.iterm2.com/)
 
