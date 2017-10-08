@@ -24,7 +24,7 @@
 ---
 #### *Start Here Please*
 
-<p style="color:blue">Quality of Life changes:</p>
+Quality of Life changes:
 - Instal XCode Suite (even if you don't need it anymore you will probably need along the road)
 ```bash
 xcode-select --install
@@ -35,6 +35,8 @@ xcode-select --install
 - Show battery percentage, right click battery
 - Change the TrackPad to "Tap to Click"
 - Activate "App Expose" on the TrackPad Gestures
+
+**👇🏼 Settings**
 
 <div align="center">
 <img src="./images/KeyboardSpeed.png" width="49%">
@@ -98,7 +100,7 @@ rm -rf fonts
 Download Cobalt2-iterm from [here](https://github.com/wesbos/Cobalt2-iterm)
 
 
-`Screenshot of iTerm2 with ZSH + Inconsolata for Powerline`
+**👇🏼 Screenshot of iTerm2 with ZSH + Inconsolata for Powerline**
 
 <div align="center">
     <img src="./images/zsh.png"/>
@@ -217,10 +219,11 @@ brew bundle install
 ```
 
 * Install these apps manually
-  - Microsoft Office Suite
+  - Microsoft Office Suite (way better than the MacOS Defaults)
 
 ### Bash
 ___
+#### *Bash_Profile*
 
 * Create a .bash_profile
 
@@ -242,11 +245,11 @@ source ~/.bash_profile
 brewup
 ```
 
-Now you can run  and that's it it will update homebrew packages
+Now you can run every often and it will update homebrew packages
 
 ### Git
 ___
-`Configure Git and Aliases`
+#### *Configure Git and Aliases*
 ```bash
 touch ~/.gitconfig
 git config --global user.name "First Last"
@@ -276,7 +279,7 @@ Typical .gitconfig will look like this, be free to remove aliases
     helper = osxkeychain
 ```
 
-`Generate a new SSH Key`
+##### *Generate a new SSH Key*
 ```
 ssh-keygen -t rsa -C "your_email@example.com"
 ```
@@ -292,9 +295,7 @@ echo .DS_Store >> ~/.gitignore
 ```
 Or add this [gitignore](https://github.com/github/gitignore/blob/master/Global/macOS.gitignore) file mantained by Github to your gitignore
 
-
-
-I like to keep my alias on .zshrc
+I like to keep my alias on the .zshrc file
 
 Open ~/.zshrc and at the end add these alias
 
@@ -302,13 +303,13 @@ Open ~/.zshrc and at the end add these alias
 alias zshconfig="code ~/.zshrc" # Modify this file
 alias cd..="cd .." # Most Important Alias
 alias batcave="cd ~/Dropbox/batcave" # Side Projects
-alias jobcave="cd ~/Projects" # 8hrs Job Project
+alias jobcave="cd ~/Projects" # 8hrs Job Projects
 alias brewup='brew update; brew upgrade; brew prune; brew cleanup; brew doctor' # Quick House Cleaning
 ```
 
 ### VSCode
 ___
-`Best Code Editor`
+#### *Best Code Editor*
 
 * Use Settings-Sync Extension
 
@@ -321,7 +322,7 @@ code \directory\to\open
 ```
 
 My User Settings look like this [October 2017]
-```javascript
+```json
 {
   // Settings for Material Theme
   // Place your settings in this file to overwrite the default settings
@@ -381,7 +382,7 @@ My User Settings look like this [October 2017]
 }
 ```
 
-`Screenshot of Visual Studio Code + Operator Mono`
+**👇🏼 Screenshot of Visual Studio Code + Operator Mono**
 
 <div align="center">
     <img src="./images/vscode.png"/>
@@ -390,7 +391,7 @@ My User Settings look like this [October 2017]
 
 
 ### Sublime
-`Second Best Code editor`
+#### *Second Best Code Editor*
 
 * Install Package Manager
 
@@ -402,7 +403,6 @@ Go [here](https://packagecontrol.io/installation)
     - Follow this [guide](https://github.com/babel/babel-sublime)
 
 * Be able to open sublime from the command line
-
     - Paste this on the command line
 ```bash
 ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/sublime
@@ -411,7 +411,7 @@ ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/loca
 * Fonts:
     - Operator Mono
 
-`Screenshot of Sublime Text 3 + Operator Mono`
+**👇🏼 Screenshot of Sublime Text 3 + Operator Mono + Material Theme**
 
 <div align="center">
     <img src="./images/sublime.png"/>
@@ -419,7 +419,7 @@ ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/loca
 
 ### MySQL
 ___
-
+#### *...Database...*
 * To install, run:
 
 ```bash
@@ -465,7 +465,7 @@ To do so, add this line to your `~/.path` file, before the `export PATH` line:
 PATH=/usr/local/share/npm/bin:$PATH
 ```
 
-`npm Usage`
+#### *npm Usage*
 
 npm Commands:
 ```bash
@@ -479,14 +479,14 @@ npm update [<package>]  # Upgrade particular package
 npm uninstall <package> # Uninstall Packages
 ```
 
-`npm Goodies`
+#### *npm Goodies*
+
 * **Gulp**
-```js
+```bash
 npm install --global gulp-cli
 ```
 
 * **Surge**
- Surge Deploy
 ```bash
 npm install -g surge
 ```
@@ -509,7 +509,7 @@ surge <path>
 ### Alfred
 
 * Make Alfred substitute for Spotlight
-* Install this [theme](https://github.com/wesbos/Cobalt2-Alfred-Theme) if you have the Powerpack ($50)
+* Install this [theme](https://github.com/wesbos/Cobalt2-Alfred-Theme) if you have the Powerpack (£19)
 
 
 ### DevToolsAuthor
@@ -541,7 +541,7 @@ defaults write com.apple.finder ShowStatusBar -bool true
 ### Python
 ---
 
-`Raspberry Fun`
+#### *Raspberry Fun*
 
 ```bash
 brew install python
@@ -556,16 +556,20 @@ $ pip install --upgrade pip
 ### Heroku
 ---
 
-`Heroku is a Platform-as-a-Service (PaaS) that simplifies deploying your apps online.`
+#### *Heroku is a Platform-as-a-Service (PaaS) that simplifies deploying your apps online.*
 
 **Installation**
 
 Assuming that you have an Heroku account (sign up if you don't), let's install the Heroku Client for the command-line using Homebrew.
 
-$ brew install heroku-toolbelt
+```bash
+brew install heroku-toolbelt
+```
 The formula might not have the latest version of the Heroku Client, which is updated pretty often. Let's update it now:
 
-$ heroku update
+```bash
+heroku update
+```
 Don't be afraid to run heroku update every now and then to always have the most recent version.
 
 **Setup**
