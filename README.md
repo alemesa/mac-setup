@@ -611,9 +611,10 @@ The Heroku Dev Center is where you will find more information.
 ### Thanks
 ---
 
-* Inspired by [Nicolashery Similar Repo](https://github.com/nicolashery/mac-dev-setup)
-* Also partially inspired by this [post](https://www.taniarascia.com/setting-up-a-brand-new-mac-for-development/) from Tania Rascia
-* Also by this [book](http://sourabhbajaj.com/mac-setup)
-* Big thanks to [WesBos 🍖](http://wesbos.com/) because yeah I use everything he uses, he's pure 🔥🔥🔥 
+Inspired by these posts:
+* [Mac Dev Setup](https://github.com/nicolashery/mac-dev-setup) by [nicolashery](https://github.com/nicolashery/)
+* [Setting up a brand new mac](https://www.taniarascia.com/setting-up-a-brand-new-mac-for-development/) by [Tania Rascia](https://www.taniarascia.com)
+* [Mac Setup](http://sourabhbajaj.com/mac-setup) by [sourabhbajaj](http://sourabhbajaj.com)
+* Big thanks to [WesBos 🍖](http://wesbos.com/) because I use everything he uses, he's pure 🔥🔥🔥 
 
 
