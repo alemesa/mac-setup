@@ -1,7 +1,9 @@
 # Mac-Setup
 
+This setup is heavily sided to a web development setup specifically React and NodeJS.
 
-! Work in progress
+This was tested on MacOS High Sierra.
+
 - [Start](#start)
 - [Fonts](#fonts)
 - [iTerm2](#iterm2)
@@ -24,17 +26,21 @@
 ---
 #### *Start Here Please*
 
-Quality of Life changes:
+First thing you need to do, on any OS actually, is update the system! For that: **Apple Icon** > **About This Mac** then **Software Update**....
+
+"Quality of Life" changes:
 - Instal XCode Suite (even if you don't need it anymore you will probably need along the road)
 ```bash
 xcode-select --install
 ```
 - Install [Google Chrome](www.google.com/chrome) (Make it default)
 - Remove useless icons from the sidebar
-- Speed up the keyboard on Preferences (🔥 Hot Tip)
+- Open **Preferences** and modify these:
+    - Trackpad > Tap to click
+    - Keyboard > Key Repeat > Fast (all the way to the right)
+    - Keyboard > Delay Until Repeat > Short (all the way to the right)
+    - TrackPad > More Gestures > Activate "App Expose"
 - Show battery percentage, right click battery
-- Change the TrackPad to "Tap to Click"
-- Activate "App Expose" on the TrackPad Gestures
 
 **👇🏼 Settings**
 
@@ -155,7 +161,7 @@ brew 'zsh-completions'
 brew 'tree'         # Tree Command
 
 # Browsers
-cask 'google-chrome' # Browser
+# cask 'google-chrome' # Browser Installed at the beginning
 cask 'firefox'       # Browser
 
 # Coding Essentials
