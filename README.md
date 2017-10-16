@@ -319,7 +319,7 @@ ___
 
 * Use Settings-Sync Extension
 
-Find my config [here](https://gist.github.com/alemesa/e1d85a6d82e56872f6ddfaf73fc11537)
+Find my config [here](https://gist.github.com/alemesa/e1d85a6d82e56872f6ddfaf73fc11537) including the UserSettings.json
 
 Open VSCode and type "shell command" and add to the PATH. Close VSCODE, restart Terminal , now you can use any project with this
 
@@ -327,66 +327,7 @@ Open VSCode and type "shell command" and add to the PATH. Close VSCODE, restart 
 code \directory\to\open
 ```
 
-My User Settings look like this [October 2017]
-```json
-{
-  // Settings for Material Theme
-  // Place your settings in this file to overwrite the default settings
-  "editor.fontFamily":
-    "'Operator Mono','Fira Code',Consolas, Monaco, 'Courier New', monospace",
-  "editor.fontSize": 15,
-  "editor.lineHeight": 25,
-  "editor.lineNumbers": "on",
-  "workbench.sideBar.location": "left",
-  //GIST SYNCYING
-  "sync.gist": "e1d85a6d82e56872f6ddfaf73fc11537",
-  "sync.lastUpload": "2017-10-05T17:57:45.551Z",
-  "sync.autoDownload": true,
-  "sync.autoUpload": true,
-  "sync.lastDownload": "2017-09-26T13:53:50.621Z",
-  "sync.forceDownload": false,
-  "sync.anonymousGist": false,
-  "sync.host": "",
-  "sync.pathPrefix": "",
-  // THEME AND ICON
-  "workbench.colorTheme": "Sublime Material Theme - Dark",
-  "workbench.iconTheme": "seti",
-  // WORKBENCH CUSTOMIZATION
-  "workbench.colorCustomizations": {
-    "statusBar.background": "#0D47A1",
-    "activityBar.background": "#212121",
-    "activityBarBadge.background": "#f44336",
-    "sideBar.background": "#212121",
-    "tab.activeBackground": "#212121",
-    "tab.border": "#212121",
-    "editorLineNumber.foreground": "#757575",
-    "panel.background": "#212121",
-    "panelTitle.activeBorder": "#FDD835"
-  },
-  // OTHERS
-  "emmet.syntaxProfiles": {
-    "javascript": "jsx"
-  },
-  "editor.renderIndentGuides": false,
-  "git.enableSmartCommit": true,
-  "editor.formatOnSave": true,
-  "eslint.autoFixOnSave": true,
-  "prettier.singleQuote": true,
-  "terminal.integrated.shell.osx": "/bin/zsh",
-  "sync.quietSync": false,
-  "sync.askGistName": false,
-  "terminal.integrated.fontSize": 14,
-  "editor.tabCompletion": true,
-  "javascript.format.enable": false,
-  "prettier.eslintIntegration": true,
-  "editor.cursorBlinking": "blink",
-  "window.zoomLevel": 0
-  //"stylelint.enable": true,
-  //"css.validate": false,
-  //"scss.validate": false
-  // Settings for WesBos theme
-}
-```
+I like many themes for VSCode but my favorite is [Sublime Material Theme](https://marketplace.visualstudio.com/items?itemName=jprestidge.theme-material-theme#review-details)
 
 **👇🏼 Screenshot of Visual Studio Code + Operator Mono**
 
