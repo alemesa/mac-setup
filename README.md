@@ -75,7 +75,7 @@ ___
 
 * In **iTerm > Preferences...**, under the tab **General**, uncheck **Confirm closing multiple sessions** and **Confirm "Quit iTerm2 (Cmd+Q)" command** under the section **Closing**.
 
-* In the tab **Profiles**, create a new one with the "+" icon, and rename it to your first name for example. Then, select **Other Actions... > Set as Default**. Finally, under the section **Window**, change the size to something better, like **Columns: 125** and **Rows: 35**.
+* In the tab **Profiles**, create a new one with the "+" icon, and rename it to your first name for example. Then, select **Other Actions... > Set as Default**. Under the section General set Working Directory to be Reuse previous session's directory. Finally, under the section **Window**, change the size to something better, like **Columns: 125** and **Rows: 35**.
 
 * Configure oh-my-zsh with Cobalt2
 
@@ -96,6 +96,10 @@ cd ..
 rm -rf fonts
 ```
 
+Download Cobalt2-iterm from [here](https://github.com/wesbos/Cobalt2-iterm)
+
+Follow these instructions:
+
 1. Drop the cobalt2.zsh-theme file in to the ~/.oh-my-zsh/themes/ directory.
 2. Open up your ZSH preferences at ~/.zshrc and change the theme variable to ZSH_THEME=cobalt2.
 3. In iTerm2 access the Preferences pane on the Profiles tab.
@@ -103,7 +107,7 @@ rm -rf fonts
 5. Under the Text tab change the font for each type (Regular and Non-ASCII) to 'Inconsolata for Powerline'. (Refer to the powerline-fonts repo for help on font installation.)
 6. Refresh ZSH by typing source ~/.zshrc on the command line.
 
-Download Cobalt2-iterm from [here](https://github.com/wesbos/Cobalt2-iterm)
+
 
 
 **👇🏼 Screenshot of iTerm2 with ZSH + Inconsolata for Powerline**
@@ -301,9 +305,13 @@ echo .DS_Store >> ~/.gitignore
 ```
 Or add this [gitignore](https://github.com/github/gitignore/blob/master/Global/macOS.gitignore) file mantained by Github to your gitignore
 
-I like to keep my alias on the .zshrc file
+I also like to keep my alias on the .zshrc file
 
-Open ~/.zshrc and at the end add these alias
+Open ~/.zshrc with `code ~/.zshrc` 
+
+Restart with `source ~/.zshrc`
+
+These are my aliases
 
 ```bash
 alias zshconfig="code ~/.zshrc" # Modify this file
@@ -317,7 +325,9 @@ alias brewup='brew update; brew upgrade; brew prune; brew cleanup; brew doctor' 
 ___
 #### *Best Code Editor*
 
-* Use Settings-Sync Extension
+The most effective way to do this is by using [Settings-Sync Extension](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync), if you haven't I highly recommend it, they way it works is by saving all your config which includes your settings, plugins, themes and snippets into your Github gist and then pulls all the data and install everything.
+
+* Using Settings-Sync Extension
 
 Find my config [here](https://gist.github.com/alemesa/e1d85a6d82e56872f6ddfaf73fc11537) including the UserSettings.json
 
@@ -329,13 +339,31 @@ code \directory\to\open
 
 I like many themes for VSCode but my favorite is [Sublime Material Theme](https://marketplace.visualstudio.com/items?itemName=jprestidge.theme-material-theme#review-details)
 
-**👇🏼 Screenshot of Visual Studio Code + Operator Mono**
+**👇🏼 Screenshot of Visual Studio Code with Sublime Material Theme + Operator Mono**
 
 <div align="center">
     <img src="./images/vscode.png"/>
 </div>
 
+* Manually Installing Plugins
 
+Some extensions I can't live without:
+
+0. [Seti Icons]()
+1. [Auto-Open Markdown Preview]()
+2. [Color Highlight]()
+3. [ESLint]()
+4. [Guides]()
+5. [Import Cost]()
+6. [npm Intellisense]()
+7. [Prettier]()
+8. [Sublime Babel]()
+9. [Terminal]()
+
+Themes I like besides Sublime Material Theme
+
+1. [Dracula]()
+2. [Cobalt2]()
 
 ### Sublime
 #### *Second Best Code Editor*
@@ -444,13 +472,15 @@ surge <path>
 
 ### Slack
 
-[Repo here](https://github.com/wesbos/Cobalt2-Slack)
+
 
 * `Preferences` → `Sidebar Theme`
-* Paste `#193549,#FFC600,#1D425D,#FFFFFF,#FFC600,#FFFFFF,#FFC600,#FFC600`
+* [Cobalt2](https://github.com/wesbos/Cobalt2-Slack) => Paste `#193549,#FFC600,#1D425D,#FFFFFF,#FFC600,#FFFFFF,#FFC600,#FFC600` 
+* Gartland => `#404040,#696969,#FFD200,#000000,#000000,#FFFFFF,#00703C,#EF4C23` 
 
 <div align="center">
-    <img src="./images/Slack.png"/>
+    <img width="49%" src="./images/Slack1.png"/>
+    <img width="49%" src="./images/Slack2.png"/>
 </div>
 
 ### Alfred
@@ -461,7 +491,7 @@ surge <path>
 
 ### DevToolsAuthor
 
-Follow this [guide](http://mikeking.io/devtools-author/) and then select a theme on the Author Settings tab inside the Chrome Dev Tools. I'm using the `Google Theme` with `Fira Code` font and `13px` size.
+Follow this [guide](http://mikeking.io/devtools-author/) and then select a theme on the Author Settings tab inside the Chrome Dev Tools. I'm using the `Default Theme` with `Fira Code` font and `13px` size. Small change but it makes the code more readable.
 
 <div align="center">
     <img src="./images/devtools.png"/>
