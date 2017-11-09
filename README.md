@@ -14,6 +14,8 @@ This was tested on MacOS High Sierra.
 - [Sublime Text](#sublime)
 - [MySQL](#mysql)
 - [Node](#node)
+- [Ruby](#ruby)
+- [Mongo](#mongo)
 - [Slack](#slack)
 - [Alfred](#alfred)
 - [DevToolsAuthor](#devtoolsauthor)
@@ -229,7 +231,8 @@ brew bundle install
 ```
 
 * Install these apps manually
-  - Microsoft Office Suite (way better than the MacOS Defaults)
+  - [Microsoft Office Suite](https://www.microsoft.com/en-ca/store/b/officeformac) (way better than the MacOS Defaults)
+  - [MAMP](https://www.mamp.info/en/) for Wordpress work
 
 ### Bash
 ___
@@ -470,9 +473,39 @@ npm install -g surge
 surge <path>
 ```
 
+* **trash**
+Instead of using `rm -r something` do `trash something`, and it will remove it to the trash folder, this is way more safe. You can add an alias too like this:
+
+```bash
+alias trash="rm -r" 
+```
+
+```bash
+npm install trash
+```
+
+### Ruby
+
+Let's install Jekyll for Github Pages
+
+```bash
+gem install jekyll # might need to run it with sudo
+bundle update jekyll
+gem update jekyll
+```
+
+To start a project
+```bash
+jekyll build # current folder will get generated inside ./_site
+jekyll serve # start development
+```
+
+### Mongo
+
+Follow this [guide](https://treehouse.github.io/installation-guides/mac/mongo-mac.html)
+
+
 ### Slack
-
-
 
 * `Preferences` → `Sidebar Theme`
 * [Cobalt2](https://github.com/wesbos/Cobalt2-Slack) => Paste `#193549,#FFC600,#1D425D,#FFFFFF,#FFC600,#FFFFFF,#FFC600,#FFC600` 
@@ -530,6 +563,17 @@ It also installed pip (and its dependency Setuptools), which is the package mana
 $ pip install --upgrade setuptools
 $ pip install --upgrade pip
 ```
+
+* If pip is not installed use this:
+```bash
+sudo easy_install pip
+```
+
+* To install packages with pip use:
+```bash
+sudo pip install foo_package --user # this will install the package on the user folder, instead that the root folder
+```
+
 ### Heroku
 ---
 
@@ -540,7 +584,8 @@ $ pip install --upgrade pip
 Assuming that you have an Heroku account (sign up if you don't), let's install the Heroku Client for the command-line using Homebrew.
 
 ```bash
-brew install heroku-toolbelt
+brew install heroku/brew/heroku
+npm install -g heroku-cli
 ```
 The formula might not have the latest version of the Heroku Client, which is updated pretty often. Let's update it now:
 
