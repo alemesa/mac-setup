@@ -165,6 +165,7 @@ brew 'git-lfs'      # Git Big Files Transfer
 brew 'yarn'         # npm on 💊
 brew 'zsh-completions'
 brew 'tree'         # Tree Command
+brew 'youtube-dl'   # Download Youtube - Udemy
 
 # Browsers
 # cask 'google-chrome' # Browser Installed at the beginning
@@ -318,10 +319,17 @@ These are my aliases
 
 ```bash
 alias zshconfig="code ~/.zshrc" # Modify this file
+alias bashconfig="code ~/.bash_profile"
 alias cd..="cd .." # Most Important Alias
 alias batcave="cd ~/Dropbox/batcave" # Side Projects
 alias jobcave="cd ~/Projects" # 8hrs Job Projects
+alias rm="trash"
+alias gitlog="git log --oneline --decorate --all --graph"
 alias brewup='brew update; brew upgrade; brew prune; brew cleanup; brew doctor' # Quick House Cleaning
+alias youtube-dl='youtube-dl -o "%(title)s.%(ext)s' # Donwload without id
+alias python="python3"
+alias pip="pip3"
+alias herokupush="git commit -am 'updating';git push; git push heroku master"
 ```
 
 ### VSCode
